@@ -1,0 +1,151 @@
+/* general rule */
+* {
+    margin: 0;
+    padding: 0;
+    }
+a{
+    text-decoration: none;
+}
+
+
+/* Nav styling */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+}
+
+logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    text-align: center;
+    color: orange;
+    font-style: italic;
+    font-size: larger;
+    padding-left: 4%;
+}
+
+links{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items:flex-end;
+}
+
+links a{
+    color: black;
+}
+links a:hover{
+    color: orange;
+}
+/* Nav styling */
+
+/* Description */
+main{
+    border: 2px solid green;
+}
+.div1{
+    color: white;
+    background-image: url(/Background.jpg);
+    filter:brightness(100%);
+    background-size: cover;
+}
+.p1{
+    padding-top: 5%;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+}
+.p2{
+    padding-top:0.5%;
+    text-align: center;
+}
+.p3{
+    padding-top:0.3%;
+    text-align: center;
+}
+.p4{
+    text-align: center;
+}
+.divInner{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.p5{
+    margin-left: 5%;
+}
+.p02{
+    color: orange;
+    text-decoration: double;
+    border-radius: 8px;
+    padding: 3px 20px 3px 20px;
+    border: solid 1px orange;
+    border-width: 3px;
+    font-style: italic;
+}
+.p02:hover{
+    color: white;
+    background-color: orange;
+}
+/* Description */
+
+/* services */
+.div2{
+    margin-top: 5%;
+    padding-left: 4%;
+}
+.servicesHeader{
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+}
+.servicesLink{
+    display: flex;
+}
+.servicesLink1{
+    color: white;
+    background-image: url(/Background.jpg);
+    margin: 2% 3% 0 0;
+    padding: 9% 2% 9% 2%;
+    border-radius: 8px;
+}
+.servicesLink2{
+    color: white;
+    background-image: url(/Background.jpg);
+    margin: 2% 3% 0 3%;
+    padding: 9% 5% 9% 5%;
+    border-radius: 8px;
+}
+.servicesLink3{
+    color: white;
+    background-image: url(/Background.jpg);
+    margin: 2% 3% 0 3%;
+    padding: 9% 2% 9% 2%;
+    border-radius: 8px;
+}
+/* services */
+
+/* Testimonial */
+.TestimonialHeader{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.TestimonialHeader p{
+    font-size: x-large;
+}
+.Testimonials{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    margin: 2% 40% 0 40%;
+    padding: 2%;
+}
+span{
+    font-size: xx-large;
+}
+/* Testimonial */
