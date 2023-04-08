@@ -58,11 +58,14 @@ main{
     filter:brightness(100%);
     background-size: cover;
 }
+.div1 p{
+    font-size: 250%;
+}
 .p1{
     padding-top: 5%;
     text-align: center;
     font-style: italic;
-    font-size: xx-large;
+    font-size: 400%;
 }
 .p2{
     padding-top:0.5%;
@@ -156,6 +159,16 @@ span{
 /* Testimonial */
 
 /* footer */
+.hh{
+    color: green;
+    font-size: 40px;
+}
+footer a{
+    color: black;
+}
+footer{
+    background-color: rgba(255, 166, 0, 0.52);
+}
 .fa{
     color: black;
 }
@@ -167,18 +180,24 @@ span{
 .inner1{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     height: 150px;
     padding-left: 4%;
-    /* padding-top: 1.5%; */
-    font-size: 80%;
+    font-size: 150%;
 }
-.inner1 .s{
-    font-size: xx-large;
+.inner1 span{
+    font-size: 300%;
     font-style: italic;
 }
-.inner1 .t{
-    margin-top: 0;
+.fa{
+    border: 2px solid red;
+    padding-top: 10%;
+    height: auto;
+}
+.fa-instagram, .fa-facebook{
+    font-size: 52px;
+}
+.fa-instagram{
+    padding-left: 25%;
 }
 .inner2{
     display: flex;

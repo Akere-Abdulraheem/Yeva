@@ -8,3 +8,11 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+    // for mobile redirection
+    if (screen.width <= 456){
+    document.location = "b.html";
+    }
+    else{
+        document.location = "TT.html";
+    }
