@@ -1,8 +1,6 @@
 # Yeva
 Yeva's works
 
-* File b is for small screens
-
-* File TT is for large screens
+* index.html redirects screens to either large or small folder
 
 You may discard other files at the moment

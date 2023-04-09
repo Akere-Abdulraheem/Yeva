@@ -6,15 +6,11 @@ a{
     text-decoration: none;
 }
 /* container */
-/* .container{ */
-    /* width: 384px;
+.container{
+    width: 384px;
     height: fit-content;
-    border: black solid 15px; */
-    /* position: absolute; */
-    /* top: 10%;
-    left: 200px; */
-    /* overflow: hidden; */
-/* } */
+    border: black solid 15px;
+}
 /* container */
 
 /* navigation top */
@@ -69,100 +65,61 @@ p{
 main{
 margin-top: auto;
 }
-
 .div1{
-background-image: url(/Background.jpg);
+background-image: url(/images/Background.jpg);
 filter:brightness(100%);
 background-size: cover;
+height: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
 .div1 p{
 color: white;
-padding: 3%;
-}
-
-.p1{
-padding-top: 5%;
 text-align: center;
 font-style: italic;
 font-size: xx-large;
 }
-.p2{
-padding-top:0.5%;
-text-align: center;
-}
-.p3{
-padding-top:0.3%;
-text-align: center;
-}
-.p4{
-text-align: center;
-}
-.divInner{
-text-align: center;
-padding-top: 5%;
-padding-bottom: 7%;
-}
-.p5{
-margin-left: 5%;
-}
-.p02{
-color: orange;
-text-decoration: double;
-border-radius: 8px;
-padding: 3px 20px 3px 20px;
-border: solid 1px orange;
-border-width: 3px;
-font-style: italic;
-}
-.p02:hover{
-color: white;
-background-color: orange;
-}
 /* Description */
 
-/* services */
+/* Event Planning */
 .div2{
 margin-top: 5%;
 padding-left: 4%;
 }
-.servicesHeader{
+.EventPlanningHeader{
 text-align: center;
 font-style: italic;
 font-size: x-large;
 font-weight: bold;
 }
-.servicesLink{
+.EventPlanningImg{
 display: flex;
 }
-.servicesLink p{
-    color: white;
-    text-align: center;
+.EventPlanningImg1{
+margin: 3% 3% 0 0;
+width: 30%;
 }
-.servicesLink2 p{
-    color: white;
-    text-align: center;
-    padding-top: 19%;
+.EventPlanningImg1 img{
+    border-radius: 10px;
 }
-.servicesLink1{
-background-image: url(/Background.jpg);
-margin: 4% 3% 0 0;
-padding: 9% 2% 9% 2%;
-border-radius: 8px;
+.EventPlanningImg2{
+    margin: 3% 3% 0 0;
+    width: 30%;
 }
-.servicesLink2{
-background-image: url(/Background.jpg);
-margin: 4% 3% 0 3%;
-padding: 9% 5% 9% 5%;
-border-radius: 8px;
+.EventPlanningImg2 img{
+    border-radius: 10px;
+    height: 100%;
+    object-fit: fill;
 }
-.servicesLink3{
-background-image: url(/Background.jpg);
-margin: 4% 3% 0 3%;
-padding: 9% 2% 9% 2%;
-border-radius: 8px;
+.EventPlanningImg3{
+    margin: 3% 3% 0 0;
+    width: 30%;
 }
-/* services */
+.EventPlanningImg3 img{
+    border-radius: 10px;
+}
+/* Event Planning */
 
 /* Gallery */
 .div2{
@@ -174,59 +131,119 @@ border-radius: 8px;
     font-style: italic;
     font-size: x-large;
     font-weight: bold;
-    }
-.GalleryLink{
+}
+/* xxxxxx */
+.slider{
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5% 4% 0 5.5%;
+}
+.slides{
+    width: 500%;
+    height: 300px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.nn{
     display: flex;
     justify-content: center;
-    background-image: url(/Background.jpg);
-    border-radius: 8px;
-    height: 180px;
-    align-content: center;
-    margin-right: 4%;
-    margin-top: 5%;
+    align-items: center;
+    margin-top: 4%;
+    width: auto;
 }
-.GalleryLink p{
-    color: white;
-    text-align: center;
+.manual-btn{
+    border: 2px solid cyan;
+    padding: 5px;
+    border-radius: 90px;
+    cursor: pointer;
 }
-    /* Gallery */
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
 
-/* Testimonial */
-.TestimonialHeader{
-display: flex;
-justify-content: center;
-margin-top: 5%;
+.manual-btn:hover {
+    background: cornflowerblue;
 }
-.TestimonialHeader p{
-font-size: x-large;
-margin-bottom: 10%;
+
+#radio1:checked ~ .first {
+    margin-left: 0;
 }
-.testdiv{
-    display: flex;justify-content: center;
+#radio2:checked ~ .first {
+    margin-left: -20%;
 }
-.Testimonials{
-background-color: orange;
-width: 200px;
-display: flex;
-justify-content: center;
-padding-bottom: 4%;
+#radio3:checked ~ .first {
+    margin-left: -40%;
 }
-span{
-font-size: xx-large;
+#radio4:checked ~ .first {
+    margin-left: -60%;
 }
-.Testimonials i{
+#radio5:checked ~ .first {
+    margin-left: -80%;
+}
+/* xxxxxx */
+/* Gallery */
+
+/* Beads */
+.BeadsHeader{
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+.container1{
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-/* Testimonial */
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    background: #fff;
+    width: 105px;
+    height: 105px;
+    margin: 10px;
+    box-shadow: 0 5px 25px rgb(1 1 1/20%, green, blue);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+/* Beads */
 
 /* footer */
 img{
     max-width: 100%;
     display: block;
-    height: auto;}
+}
 footer{
-    margin-top: 20%;
+    margin-top: 10%;
     background-color: rgba(255, 166, 0, 0.52);
 }
 .inner1{
@@ -247,9 +264,6 @@ footer{
 }
 .s img{
     max-width: 80%;
-}
-text{
-    /* margin-top: -30%; */
 }
 .footer1{
     height: auto;
