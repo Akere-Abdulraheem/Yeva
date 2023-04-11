@@ -66,167 +66,76 @@ p{
 main{
 margin-top: auto;
 }
-
 .div1{
-background-image: url(/images/Background.jpg);
-filter:brightness(100%);
+background-image: url(/images/EVE-17.jpg);
+filter:brightness(80%);
 background-size: cover;
+height: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
 .div1 p{
 color: white;
-padding: 3%;
-}
-
-.p1{
-padding-top: 5%;
 text-align: center;
 font-style: italic;
-font-size: xx-large;
-}
-.p2{
-padding-top:0.5%;
-text-align: center;
-}
-.p3{
-padding-top:0.3%;
-text-align: center;
-}
-.p4{
-text-align: center;
-}
-.divInner{
-text-align: center;
-padding-top: 5%;
-padding-bottom: 7%;
-}
-.p5{
-margin-left: 5%;
-}
-.p02{
-color: orange;
-text-decoration: double;
-border-radius: 8px;
-padding: 3px 20px 3px 20px;
-border: solid 1px orange;
-border-width: 3px;
-font-style: italic;
-}
-.p02:hover{
-color: white;
-background-color: orange;
+font-size: large;
+filter:brightness(100%);
+filter: opacity(100%);
 }
 /* Description */
 
-/* services */
+/* Event Planning */
 .div2{
 margin-top: 5%;
 padding-left: 4%;
 }
-.servicesHeader{
+.EventPlanningHeader{
 text-align: center;
 font-style: italic;
 font-size: x-large;
 font-weight: bold;
 }
-.servicesLink{
-display: flex;
-}
-.servicesLink a{
-    color: white;
-}
-.servicesLink p{
-    color: white;
-    text-align: center;
-}
-.servicesLink2 p{
-    color: white;
-    text-align: center;
-    padding-top: 19%;
-}
-.servicesLink1{
-background-image: url(/images/Background.jpg);
+.EventPlanningImg1{
 margin: 4% 3% 0 0;
-padding: 9% 2% 9% 2%;
-border-radius: 8px;
+width: 95%;
+background-image: url(/images/EVE-19.jpg);
+/* opacity: 0.5; */
+background-size: 100%;
+border-radius: 10px;
 }
-.servicesLink2{
-background-image: url(/images/Background.jpg);
-margin: 4% 3% 0 3%;
-padding: 9% 5% 9% 5%;
-border-radius: 8px;
-}
-.servicesLink3{
-background-image: url(/images/Background.jpg);
-margin: 4% 3% 0 3%;
-padding: 9% 2% 9% 2%;
-border-radius: 8px;
-}
-/* services */
 
-/* Gallery */
-.div2{
-    margin-top: 5%;
-    padding-left: 4%;
-    }
-.GalleryHeader{
-    text-align: center;
-    font-style: italic;
-    font-size: x-large;
-    font-weight: bold;
-    }
-.GalleryLink{
+.EventPlanningImg1 p{
+    padding: 8% 8% 2% 8%;
+}
+.divInner{
     display: flex;
     justify-content: center;
-    background-image: url(/images/Background.jpg);
+    padding-bottom: 9%;
+}
+.p02{
+    color: orange;
+    text-decoration: double;
     border-radius: 8px;
-    height: 180px;
-    align-content: center;
-    margin-right: 4%;
-    margin-top: 5%;
+    padding: 3px 20px 3px 20px;
+    border: solid 1px orange;
+    border-width: 3px;
+    font-style: italic;
 }
-.GalleryLink p{
+.p02:hover{
     color: white;
-    text-align: center;
+    background-color: orange;
 }
-    /* Gallery */
+/* Event Planning */
 
-/* Testimonial */
-.TestimonialHeader{
-display: flex;
-justify-content: center;
-margin-top: 5%;
-}
-.TestimonialHeader p{
-font-size: x-large;
-margin-bottom: 10%;
-}
-.testdiv{
-    display: flex;justify-content: center;
-}
-.Testimonials{
-background-color: orange;
-width: 200px;
-display: flex;
-justify-content: center;
-padding-bottom: 4%;
-}
-span{
-font-size: xx-large;
-}
-.Testimonials i{
-    display: flex;
-    justify-content: center;
-}
-/* Testimonial */
 
 /* footer */
 img{
     max-width: 100%;
     display: block;
-    height: auto;}
+}
 footer{
-    margin-top: 20%;
+    margin-top: 10%;
     background-color: rgba(255, 166, 0, 0.52);
 }
 .inner1{
