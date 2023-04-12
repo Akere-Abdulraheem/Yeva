@@ -6,24 +6,24 @@ a{
     text-decoration: none;
 }
 /* container */
-/* .container{
+/*.container{
     width: 384px;
     height: fit-content;
     border: black solid 15px;
 } */
-/* container */
+/* container
 
 /* navigation top */
 .topnav{
     position:sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 }
 .nav{
     display: flex;
     justify-content: space-between; 
     width: 100%;
-    z-index: 1;
     height: 50px;
     align-items: center;
     height: auto;
@@ -69,6 +69,7 @@ margin-top: auto;
 
 .div1{
 background-image: url(/images/Background.jpg);
+z-index: 0;
 filter:brightness(100%);
 background-size: cover;
 }

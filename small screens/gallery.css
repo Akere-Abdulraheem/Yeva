@@ -6,11 +6,11 @@ a{
     text-decoration: none;
 }
 /* container */
-/* .container{
+/*.container{
     width: 384px;
     height: fit-content;
     border: black solid 15px;
-} */
+}*/
 /* container */
 
 /* navigation top */
@@ -18,12 +18,12 @@ a{
     position:sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 }
 .nav{
     display: flex;
     justify-content: space-between; 
     width: 100%;
-    z-index: 1;
     height: 50px;
     align-items: center;
     height: auto;
