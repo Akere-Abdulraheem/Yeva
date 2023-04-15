@@ -1,3 +1,13 @@
+:root{
+    --black:rgba(42, 49,41, 1);
+    --white:rgba(225, 225, 225,1);
+    --darkOrange:rgba(247, 137, 28, 1);
+    --lightOrange:rgba(255, 163, 63, 1);
+    --green:rgba(0, 121, 107, 1);
+    --footer:rgba(225, 163, 52, 0.1);
+    --buttons:rgba(255, 163, 52, 0.15);
+    --cards:rgba(255, 163, 52, 0.15);
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,18 +16,18 @@ a{
     text-decoration: none;
 }
 /* container */
-/*.container{
+.container{
     width: 384px;
     height: fit-content;
     border: black solid 15px;
-} */
+}
 /* container
 
 /* navigation top */
 .topnav{
     position:sticky;
     top: 0;
-    background-color: white;
+    background-color: var(--white);
     z-index: 1;
 }
 .nav{
@@ -35,7 +45,7 @@ a{
     max-width: 40%;
 }
 p{
-    color: black;
+    /* color: var(--black); */
     font-size: medium;
     padding:3% 2% 0 0;
 }
@@ -43,15 +53,16 @@ p{
       display: none;
 }
 .nav a.icon {
-      color: black;
-      background-color: rgba(255, 255, 255, 0);
+      color: var(--black);
+      background-color: var(--white);
 }
 .nav a:hover {
-    color: orange;
+    color: var(--darkOrange);
+    background-color: var(--white);
 }
 .topnav a {
-    background-color: rgba(255, 166, 0, 0.539);
-    color: white;
+    background-color: var(--lightOrange);
+    color: var(--white);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -59,6 +70,11 @@ p{
     justify-content: center;
     position: relative;
     top: auto;
+}
+#myLinks a:hover{
+    font-size: larger;
+    color: var(--black);
+    background-color:var(--darkOrange);
 }
 /* naviagtion top */
 
@@ -75,7 +91,7 @@ background-size: cover;
 }
 
 .div1 p{
-color: white;
+    color: var(--white);
 padding: 3%;
 }
 
@@ -105,17 +121,19 @@ padding-bottom: 7%;
 margin-left: 5%;
 }
 .p02{
-color: orange;
+color: var(--lightOrange);
 text-decoration: double;
 border-radius: 8px;
 padding: 3px 20px 3px 20px;
-border: solid 1px orange;
+border: solid 1px var(--lightOrange);
 border-width: 3px;
 font-style: italic;
+transition: 0.3s ease;
 }
 .p02:hover{
-color: white;
-background-color: orange;
+    color: var(--white);
+    background-color: var(--darkOrange);
+    transform: translate(5px, -5px);
 }
 /* Description */
 
@@ -134,14 +152,14 @@ font-weight: bold;
 display: flex;
 }
 .servicesLink a{
-    color: white;
+    color: var(--white);
 }
 .servicesLink p{
-    color: white;
+    color: var(--white);
     text-align: center;
 }
 .servicesLink2 p{
-    color: white;
+    color: var(--white);
     text-align: center;
     padding-top: 19%;
 }
@@ -187,7 +205,7 @@ border-radius: 8px;
     margin-top: 5%;
 }
 .GalleryLink p{
-    color: white;
+    color: var(--white);
     text-align: center;
 }
     /* Gallery */
@@ -206,7 +224,7 @@ margin-bottom: 10%;
     display: flex;justify-content: center;
 }
 .Testimonials{
-background-color: orange;
+background-color:var(--lightOrange);
 width: 200px;
 display: flex;
 justify-content: center;
@@ -228,7 +246,7 @@ img{
     height: auto;}
 footer{
     margin-top: 20%;
-    background-color: rgba(255, 166, 0, 0.52);
+    background-color: var(--darkOrange);
 }
 .inner1{
     display: flex;
@@ -267,7 +285,7 @@ footer{
     color: black;
 }
 .hh{
-    color: green;
+    color: var(--green);
     font-size: 20px;
 }
 .inner2-1{

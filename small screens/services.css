@@ -6,11 +6,11 @@ a{
     text-decoration: none;
 }
 /* container */
-/*.container{
+/* .container{
     width: 384px;
     height: fit-content;
     border: black solid 15px;
-}*/
+} */
 /* container */
 
 /* navigation top */
@@ -68,7 +68,6 @@ margin-top: auto;
 }
 .div1{
 background-image: url(/images/EVE-17.jpg);
-filter:brightness(80%);
 background-size: cover;
 height: 250px;
 display: flex;
@@ -80,8 +79,6 @@ color: white;
 text-align: center;
 font-style: italic;
 font-size: large;
-filter:brightness(100%);
-filter: opacity(100%);
 }
 /* Description */
 
