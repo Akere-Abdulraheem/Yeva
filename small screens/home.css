@@ -225,7 +225,7 @@ margin-bottom: 10%;
     display: flex;justify-content: center;
 }
 .Testimonials{
-background-color:var(--lightOrange);
+background-color:var(--cards);
 width: 200px;
 display: flex;
 justify-content: center;
