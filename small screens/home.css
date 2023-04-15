@@ -247,7 +247,7 @@ img{
     height: auto;}
 footer{
     margin-top: 20%;
-    background-color: var(--darkOrange);
+    background-color: var(--footer);
 }
 .inner1{
     display: flex;
