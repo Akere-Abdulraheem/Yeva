@@ -133,6 +133,7 @@ transition: 0.3s ease;
 .p02:hover{
     color: var(--white);
     background-color: var(--darkOrange);
+    border: solid 1px var(--darkOrange);
     transform: translate(5px, -5px);
 }
 /* Description */
@@ -260,6 +261,7 @@ footer{
 }
 .fa{
     font-size: 82px;
+    color: var(--green);
 }
 .fa-instagram{
     margin-left: 10%;
