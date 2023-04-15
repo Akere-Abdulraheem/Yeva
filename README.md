@@ -1,5 +1,5 @@
-# Yeva
-Yeva's works
+# Shukzy
+Shukzy's works
 
 * index.html redirects screens to either large or small folder
 
