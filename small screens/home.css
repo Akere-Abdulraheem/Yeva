@@ -45,7 +45,6 @@ a{
     max-width: 40%;
 }
 p{
-    /* color: var(--black); */
     font-size: medium;
     padding:3% 2% 0 0;
 }
@@ -128,13 +127,13 @@ padding: 3px 20px 3px 20px;
 border: solid 1px var(--lightOrange);
 border-width: 3px;
 font-style: italic;
-transition: 0.3s ease;
+/* transition: 0.3s ease; */
 }
 .p02:hover{
     color: var(--white);
     background-color: var(--darkOrange);
     border: solid 1px var(--darkOrange);
-    transform: translate(5px, -5px);
+    /* transform: translate(5px, -5px); */
 }
 /* Description */
 
@@ -198,7 +197,8 @@ border-radius: 8px;
 .GalleryLink{
     display: flex;
     justify-content: center;
-    background-image: url(/images/Background.jpg);
+    background-image: url(/images/gallery.png);
+    background-size: cover;
     border-radius: 8px;
     height: 180px;
     align-content: center;
@@ -284,7 +284,7 @@ footer{
     height: auto;
 }
 .footer2 a{
-    color: black;
+    color: var(--black);
 }
 .hh{
     color: var(--green);

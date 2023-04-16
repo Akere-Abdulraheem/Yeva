@@ -1,3 +1,13 @@
+:root{
+    --black:rgba(42, 49,41, 1);
+    --white:rgba(225, 225, 225,1);
+    --darkOrange:rgba(247, 137, 28, 1);
+    --lightOrange:rgba(255, 163, 63, 1);
+    --green:rgba(0, 121, 107, 1);
+    --footer:rgba(225, 163, 52, 0.1);
+    --buttons:rgba(255, 163, 52, 0.15);
+    --cards:rgba(255, 163, 52, 0.15);
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +27,7 @@ a{
 .topnav{
     position:sticky;
     top: 0;
-    background-color: white;
+    background-color: var(--white);
     z-index: 1;
 }
 .nav{
@@ -35,7 +45,7 @@ a{
     max-width: 40%;
 }
 p{
-    color: black;
+    color: var(--black);
     font-size: medium;
     padding:3% 2% 0 0;
 }
@@ -43,15 +53,16 @@ p{
       display: none;
 }
 .nav a.icon {
-      color: black;
-      background-color: rgba(255, 255, 255, 0);
+      color: var(--black);
+      background-color:var(--white);
 }
 .nav a:hover {
-    color: orange;
+    color: var(--darkOrange);
+    background-color: var(--white);
 }
 .topnav a {
-    background-color: rgba(255, 166, 0, 0.539);
-    color: white;
+    background-color: var(--lightOrange);
+    color: var(--white);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -59,6 +70,11 @@ p{
     justify-content: center;
     position: relative;
     top: auto;
+}
+#myLinks a:hover{
+    font-size: larger;
+    color: var(--black);
+    background-color:var(--darkOrange);
 }
 /* naviagtion top */
 
@@ -76,7 +92,7 @@ align-items: center;
 justify-content: center;
 }
 .div1 p{
-color: white;
+color: var(--white);
 text-align: center;
 font-style: italic;
 font-size: large;
@@ -166,7 +182,7 @@ width: 30%;
     width: auto;
 }
 .manual-btn{
-    border: 2px solid cyan;
+    border: 7px solid var(--buttons);
     padding: 5px;
     border-radius: 90px;
     cursor: pointer;
@@ -218,7 +234,7 @@ width: 30%;
 }
 .card{
     position: relative;
-    background: #fff;
+    background: var(--cards);
     width: 105px;
     height: 105px;
     margin: 10px;
@@ -245,7 +261,7 @@ img{
 }
 footer{
     margin-top: 10%;
-    background-color: rgba(255, 166, 0, 0.52);
+    background-color: var(--footer);
 }
 .inner1{
     display: flex;
@@ -259,6 +275,7 @@ footer{
 }
 .fa{
     font-size: 82px;
+    color: var(--green);
 }
 .fa-instagram{
     margin-left: 10%;
@@ -281,10 +298,10 @@ footer{
     height: auto;
 }
 .footer2 a{
-    color: black;
+    color: var(--black);
 }
 .hh{
-    color: green;
+    color:var(--green);
     font-size: 20px;
 }
 .inner2-1{
