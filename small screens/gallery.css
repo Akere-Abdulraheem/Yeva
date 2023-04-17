@@ -126,8 +126,6 @@ width: 30%;
 }
 .EventPlanningImg2 img{
     border-radius: 10px;
-    height: 100%;
-    object-fit: fill;
 }
 .EventPlanningImg3{
     margin: 3% 3% 0 0;
