@@ -103,7 +103,7 @@ font-size: large;
 .div2{
 margin-top: 5%;
 padding-left: 4%;
-/* height: 1080px; */
+height: 1080px;
 /* border: 2px solid red; */
 }
 .EventPlanningHeader{
@@ -128,7 +128,7 @@ width: 30%;
 }
 .EventPlanningImg2 img{
     border-radius: 10px;
-    height: 1080px;
+    height: 100%;
     object-fit: fill;
 }
 .EventPlanningImg3{
