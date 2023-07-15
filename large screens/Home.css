@@ -1,21 +1,40 @@
 /* general rule */
-* {
-    margin: 0;
-    padding: 0;
-    }
+:root{
+    --black:rgba(42, 49,41, 1);
+    --white:rgba(225, 225, 225,1);
+    --darkOrange:rgba(247, 137, 28, 1);
+    --lightOrange:rgba(255, 163, 63, 1);
+    --green:rgba(0, 121, 107, 1);
+    --footer:rgba(225, 163, 52, 0.1);
+    --buttons:rgba(255, 163, 52, 0.15);
+    --cards:rgba(255, 163, 52, 0.15);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
 a{
     text-decoration: none;
 }
+/* container */
 
+/* .container{
+    width: 2450px;
+    /* width: 2000px; */
+    /*height: fit-content;
+    border: black solid 15px;
+} */
+
+/* container */
 
 /* Nav styling */
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: var(--white);
     height: 100px;
     align-items: center;
-    /* below css pins the nav tab */
+    /* below css, pins the nav tab */
     position:sticky;
     top: 0;
     width: 100%;
@@ -23,13 +42,13 @@ nav{
 }
 
 logo{
+    color: orange;
+    font-size:3vw;
     display: flex;
     justify-content: flex-start;
     width: 10%;
     text-align: center;
-    color: orange;
     font-style: italic;
-    font-size: larger;
     padding-left: 4%;
 }
 
@@ -38,31 +57,36 @@ links{
     justify-content: space-around;
     width: 60%;
     align-items:flex-end;
+    font-size: 1.5vw;
 }
 
 links a{
-    color: black;
+    color: var(--black);
+    padding: 10px;
 }
 links a:hover{
-    color: orange;
+    background-color: var(--darkOrange);
+    border-radius: 48%;
+    color:var(--black);
+    color:var(--white)
 }
 /* Nav styling */
 
 /* Description */
+main_2{
+    display: none;
+}
 main{
     margin-top: auto;
 }
 .div1{
-    color: white;
+    color: var(--white);
     background-image: url(/images/Background.jpg);
     filter:brightness(100%);
     background-size: cover;
 }
-.div1 p{
-    font-size: 250%;
-}
 .p1{
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: center;
     font-style: italic;
     font-size: 400%;
@@ -70,18 +94,22 @@ main{
 .p2{
     padding-top:0.5%;
     text-align: center;
+    font-size: 200%;
 }
 .p3{
     padding-top:0.3%;
     text-align: center;
+    font-size: 200%;
 }
 .p4{
     text-align: center;
+    font-size: 200%;
 }
 .divInner{
     text-align: center;
-    padding-top: 4%;
-    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: 450%;
 }
 .p5{
     margin-left: 5%;
@@ -90,55 +118,90 @@ main{
     color: orange;
     text-decoration: double;
     border-radius: 8px;
-    padding: 3px 20px 3px 20px;
+    padding: 4px 20px 4px 20px;
     border: solid 1px orange;
     border-width: 3px;
     font-style: italic;
 }
 .p02:hover{
-    color: white;
-    background-color: orange;
+    color:var(--white);
+    background-color: var(--lightOrange);
 }
 /* Description */
 
 /* services */
-.div2{
-    margin-top: 5%;
+/* .div2{
+    margin-top:3%;
     padding-left: 4%;
+
+    border: 2px solid red;
 }
 .servicesHeader{
     font-style: italic;
-    font-size: medium;
+    font-size: 400%;
     font-weight: bold;
 }
 .servicesLink{
-    display: flex;
+    border: 2px solid blue;
+    margin: 2%; */
+    /* display: flex;
+    justify-content: flex-start; */
+/* } */
+/* .servicesLink1,.servicesLink2,.servicesLink3{
+    left:0;
+
+    position: relative;
+    margin: 2%;
 }
-.servicesLink1{
-    color: white;
+
+main{
+    display: none;
+} */
+
+/* .servicesLink2, .servicesLink3{
+    margin: 4%;
+    /* width: 10%;*/
+    /*position: relative;
+    display: flex;
+    justify-content: space-around;
+} */
+/* .txt-content{
+    position: absolute;
+    top:300px;
+    left: 350px;
+    color: var(--white);
+    font-size: 400%;
+}
+.servicesLink{
+    display: flex;
+    justify-content: space-around;
+} */
+/* .servicesLink1{
+    color: var(--white);
     background-image: url(/images/Background.jpg);
-    margin: 2% 3% 0 0;
+    
     padding: 9% 2% 9% 2%;
     border-radius: 8px;
-}
-.servicesLink2{
-    color: white;
+    border: 2px solid red;
+} */
+/* .servicesLink2{
+    color:var(--white);
     background-image: url(/images/Background.jpg);
     margin: 2% 3% 0 3%;
     padding: 9% 5% 9% 5%;
     border-radius: 8px;
 }
 .servicesLink3{
-    color: white;
+    color:var(--white);
     background-image: url(/images/Background.jpg);
     margin: 2% 3% 0 3%;
     padding: 9% 2% 9% 2%;
     border-radius: 8px;
-}
+} */
 /* services */
 
 /* Testimonial */
-.TestimonialHeader{
+/* .TestimonialHeader{
     display: flex;
     justify-content: center;
     margin-top: 10%;
@@ -149,13 +212,13 @@ main{
 .Testimonials{
     display: flex;
     justify-content: center;
-    background-color: orange;
+    background-color:var(--cards);
     margin: 2% 40% 0 40%;
     padding: 2%;
 }
 span{
     font-size: xx-large;
-}
+} */
 /* Testimonial */
 
 /* footer */
@@ -164,10 +227,10 @@ span{
     font-size: 40px;
 }
 footer a{
-    color: black;
+    color:var(--black);
 }
 footer{
-    background-color: rgba(255, 166, 0, 0.52);
+    background-color:var(--footer);
 }
 .fa{
     color: black;
@@ -189,12 +252,12 @@ footer{
     font-style: italic;
 }
 .fa{
-    border: 2px solid red;
     padding-top: 10%;
     height: auto;
 }
 .fa-instagram, .fa-facebook{
     font-size: 52px;
+    color:var(--green);
 }
 .fa-instagram{
     padding-left: 25%;
@@ -209,17 +272,20 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     height: 200px;
-    font-size: large;
+    font-size: 200%;
 }
 .fContactus{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: large;
+    font-size:200%;
 }
-
+.s{
+    color: var(--green);
+}
 .cc{
     text-align: center;
-    padding: 1% 1% 2% 1%;
+    padding: 1% 1% 1% 1%;
+    font-size: 200%;
 }
 /* footer */
