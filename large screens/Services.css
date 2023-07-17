@@ -70,6 +70,34 @@ links a:hover{
 
 /* main */
 main{
+margin-top: auto;
+}
+
+.div1{
+height: 750px;
+}
+
+.div1 img{
+width: 100%;
+height: 100%;
+filter:brightness(50%);
+position: relative;
+z-index: -1;
+}
+
+.div1 p{
+color: var(--white);
+text-align: center;
+font-style: italic;
+font-size: 700%;
+margin-top: -40vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* main*/
+
+/*{
     display: none;
 margin-top: auto;
 }
@@ -86,11 +114,11 @@ color: var(--white);
 text-align: center;
 font-style: italic;
 font-size: large;
-}
+} */
 /* Description */
 
 /* Event Planning */
-.div2{
+/* .div2{
 margin-top: 5%;
 padding-left: 4%;
 }
@@ -103,13 +131,14 @@ font-weight: bold;
 .EventPlanningImg1{
 margin: 4% 3% 0 0;
 width: 95%;
-background-image: url(/images/EVE-19.jpg);
+background-image: url(/images/EVE-19.jpg); */
 /* opacity: 0.5; */
-background-size: 100%;
+/* background-size: 100%;
 border-radius: 10px;
-}
-
-.EventPlanningImg1 p{
+} */
+main_1{
+    display: none;
+} .EventPlanningImg1 p{
     padding: 8% 8% 2% 8%;
 }
 .divInner{
@@ -129,7 +158,7 @@ border-radius: 10px;
 .p02:hover{
     color: var(--white);
     background-color: var(--darkOrange);
-}
+} */
 /* Event Planning */
 
 

@@ -19,11 +19,11 @@ a{
 /* settings */
 
 /* container */
-/*.container{
-    width: 384px;
+/* .container{
+    width: 2050px;
     height: fit-content;
     border: black solid 15px;
-}*/
+} */
 /* container */
 
 /* Nav styling */
@@ -72,7 +72,34 @@ links a:hover{
 /* naviagtion styling */
 
 /* main */
+main{
+margin-top: auto;
+}
+
+.div1{
+height: 300px;
+}
+
+.div1 img{
+width: 100%;
+height: 100%;
+filter:brightness(50%);
+position: relative;
+z-index: -1;
+}
+
+.div1 p{
+color: var(--white);
+text-align: center;
+font-style: italic;
+font-size: 700%;
+margin-top: -20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 /* main */
+
 /* footer */
 .hh{
     color: green;
