@@ -130,81 +130,87 @@ main{
 /* Description */
 
 /* services */
-/* .div2{
+.div2{
     margin-top:3%;
     padding-left: 4%;
-
-    border: 2px solid red;
 }
 .servicesHeader{
     font-style: italic;
-    font-size: 400%;
+    font-size: 300%;
     font-weight: bold;
 }
 .servicesLink{
-    border: 2px solid blue;
-    margin: 2%; */
-    /* display: flex;
-    justify-content: flex-start; */
-/* } */
-/* .servicesLink1,.servicesLink2,.servicesLink3{
-    left:0;
-
+    margin: 1% 0% 0% 0%;
+    padding-left: 4%;
+    display: flex;
+    /* justify-content: flex-start; */
+    height: 200px;
     position: relative;
-    margin: 2%;
 }
-
-main{
-    display: none;
-} */
-
-/* .servicesLink2, .servicesLink3{
-    margin: 4%;
-    /* width: 10%;*/
-    /*position: relative;
-    display: flex;
-    justify-content: space-around;
-} */
-/* .txt-content{
+.servicesLink_img{
+    width: 300px;
+    height: 200px;
     position: absolute;
-    top:300px;
-    left: 350px;
-    color: var(--white);
-    font-size: 400%;
+    top: 0%;
+    left: 0%;
+    border-radius: 18px;
 }
-.servicesLink{
-    display: flex;
-    justify-content: space-around;
-} */
-/* .servicesLink1{
+.servicesLink1 a{
+    position: absolute;
+    left: 9%;
+    bottom: 43%;
     color: var(--white);
-    background-image: url(/images/Background.jpg);
-    
-    padding: 9% 2% 9% 2%;
-    border-radius: 8px;
-    border: 2px solid red;
-} */
-/* .servicesLink2{
-    color:var(--white);
-    background-image: url(/images/Background.jpg);
-    margin: 2% 3% 0 3%;
-    padding: 9% 5% 9% 5%;
-    border-radius: 8px;
 }
-.servicesLink3{
-    color:var(--white);
-    background-image: url(/images/Background.jpg);
-    margin: 2% 3% 0 3%;
-    padding: 9% 2% 9% 2%;
-    border-radius: 8px;
-} */
+.servicesLink2_img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-left: 30%;
+    border-radius: 18px;
+}
+.servicesLink2 a{
+    position: absolute;
+    left: 40%;
+    bottom: 43%;
+    color: var(--white);
+}
+.servicesLink3_img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-left: 60%;
+    border-radius: 18px;
+}
+.servicesLink3 a{
+    position: absolute;
+    left: 40%;
+    bottom: 43%;
+    margin-left: 30%;
+    color: var(--white);
+}
 /* services */
 
+/* Gallery */
+.GalleryHeader{
+    font-style: italic;
+    font-size: 300%;
+    font-weight: bold;
+}
+.GalleryHeader_img{
+    margin-top: 2%;
+    width: 97%;
+}
+/* Gallery */
+
 /* Testimonial */
-/* .TestimonialHeader{
+.TestimonialHeader{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .TestimonialHeader p{
     font-size: x-large;
@@ -213,12 +219,12 @@ main{
     display: flex;
     justify-content: center;
     background-color:var(--cards);
-    margin: 2% 40% 0 40%;
+    margin: 2% 30% 0 30%;
     padding: 2%;
 }
 span{
     font-size: xx-large;
-} */
+}
 /* Testimonial */
 
 /* footer */
